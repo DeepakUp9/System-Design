@@ -1,5 +1,0 @@
-Question:
- What is the Observer Design Pattern, and in what type of scenarios is it typically used?
-Example Use-Case:
- In a weather monitoring app, multiple display screens (current, forecast, statistics) update
- automatically when the weather data changes — each screen is an observer to the weather data source.

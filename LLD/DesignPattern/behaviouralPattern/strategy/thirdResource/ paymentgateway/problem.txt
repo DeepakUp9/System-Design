@@ -1,6 +1,0 @@
-Question:
- How does the Strategy Pattern help in removing conditional (if-else or switch) logic from the codebase?
-Example Use-Case:
- In a payment gateway, instead of using if(paymentType == "CARD") {} and so on,
- you use a strategy for each payment type (card, UPI, wallet), 
- making the code cleaner and more scalable.

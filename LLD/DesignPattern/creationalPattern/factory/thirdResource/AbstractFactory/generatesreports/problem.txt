@@ -1,8 +1,0 @@
-Question:
- You're building an application that generates reports in multiple formats (PDF, Excel, HTML), 
- and each format supports different layouts and content renderers. 
- How would you use the Abstract Factory Pattern to manage this?
-Example Use-Case:
- You define an abstract factory for each format (e.g., PdfReportFactory, ExcelReportFactory). 
- Each factory provides methods to create the correct layout generator, content renderer, and file exporter for that format. 
- When adding a new format like CSV, you create a new factory without touching existing factories.

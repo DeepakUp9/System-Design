@@ -1,5 +1,0 @@
-Question:
- What challenges can arise when using the Observer Pattern in a multithreaded environment, and how would you handle them?
-Example Use-Case:
- In a real-time chat app, multiple listeners (UI threads, logs, analytics, etc.) observe message events. 
- If not handled properly, race conditions or inconsistent state updates can occur when observers are notified concurrently.

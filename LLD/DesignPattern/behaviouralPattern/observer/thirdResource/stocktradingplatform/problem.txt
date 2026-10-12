@@ -1,6 +1,0 @@
-Question:
- How does the Observer Pattern help in achieving loose coupling between components?
-Example Use-Case:
- In a stock trading platform, different modules (notification service, analytics engine, dashboard UI) 
- subscribe to price updates from a stock data provider. 
- The data provider doesn't know or care about who is observing — it just notifies all registered observers.

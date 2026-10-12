@@ -1,6 +1,0 @@
-Question:
- How would you use the Strategy Pattern to support extensibility in a business rules engine where rules change frequently?
-Example Use-Case:
- In a loan approval system, different rules apply for salaried, self-employed, or NRI applicants. 
- You define each rule set as a separate strategy and inject the appropriate one at runtime, 
- allowing rule changes without touching core approval logic.

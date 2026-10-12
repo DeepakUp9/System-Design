@@ -236,13 +236,6 @@ One reference type, many runtime types → less type checking, more flexible cod
 
 ---
 
-## Open/Closed Principle (SOLID)
-
-> Classes should be **open for extension, closed for modification.**
-
-Adding a `Bike` class that extends `LandVehicle` requires **zero** changes to `Vehicle`, `LandVehicle`, or any existing class. That's generalization enabling OCP.
-
-
 ## 6. Polymorphism
 
 **"Many forms"** — the same interface behaves differently depending on context.

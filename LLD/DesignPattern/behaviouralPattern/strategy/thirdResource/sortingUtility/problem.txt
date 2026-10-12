@@ -1,5 +1,0 @@
-Question:
- What is the Strategy Design Pattern, and how does it help in selecting algorithms at runtime?
-Example Use-Case:
- In a sorting utility, you want to support multiple sorting strategies (bubble sort, quick sort, merge sort). 
- Using the Strategy Pattern, the client can choose the sorting algorithm dynamically based on dataset size or type.

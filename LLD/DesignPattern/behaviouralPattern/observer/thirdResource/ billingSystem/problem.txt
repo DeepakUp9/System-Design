@@ -1,7 +1,0 @@
-Question:
- You're designing a billing system where various services (email, SMS, invoice generator, audit logger) need to respond whenever a payment is processed. 
- How would you use the Observer Pattern to handle this without tightly coupling these services?
-Example Use-Case:
- The PaymentProcessor acts as the subject. Once a payment is completed, 
- all registered observers — like EmailService, SMSService, InvoiceService, and AuditLogService — are notified and act accordingly. 
- New services can be added without modifying the payment logic.

@@ -5,7 +5,6 @@ interface PaymentStrategy{
 }
 
 class CreditCardProcessor implements PaymentStrategy{
-    
     public void pay(){
         System.out.println("Processing via "+ this.getClass().getSimpleName());
     }
@@ -17,17 +16,6 @@ class PayPalProcessor implements PaymentStrategy{
     }
 }
 
-class CryptoCurrencyProcessor implements PaymentStrategy {
-    public void pay() {
-        System.out.println("Processing via " + this.getClass().getSimpleName());
-    }
-}
-
-class GeneralProcessor implements PaymentStrategy {
-    public void pay() {
-        System.out.println("Processing via " + this.getClass().getSimpleName());
-    }
-}
 
 class PaymentService{
     PaymentStrategy payment;
@@ -65,17 +53,6 @@ class PayPalService extends PaymentService {
     }
 }
 
-class CryptoCurrencyService extends PaymentService {
-    CryptoCurrencyService(PaymentStrategy paymentStrategy) {
-        super(paymentStrategy);
-    }
-
-    @Override
-    void pay() {
-        System.out.println("Using CryptoCurrency Service to initiate payment :");
-        super.pay();
-    }
-}
 
 public class solution {
 

@@ -1,5 +1,0 @@
-Question:
- How does the Abstract Factory Pattern promote consistency among related objects in a system?
-Example Use-Case:
- In a game engine, different themes (e.g., Sci-Fi, Medieval, Futuristic) require different sets of characters, weapons, and vehicles. 
- Using an abstract factory for each theme ensures that a "Sci-Fi weapon" is always created with a "Sci-Fi character" and "Sci-Fi vehicle", keeping the components visually and functionally consistent.

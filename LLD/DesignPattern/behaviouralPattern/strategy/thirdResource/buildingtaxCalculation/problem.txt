@@ -1,7 +1,0 @@
-Question:
- You're building a tax calculation module that needs to support different tax policies based on region (India, US, Europe). 
- How would you use the Strategy Pattern to design this module for easy expansion and maintenance?
-Example Use-Case:
- Each region has its own TaxStrategy implementation. 
- The system dynamically selects the correct strategy based on user region, 
- ensuring that adding a new country doesn’t require modifying existing logic — just plug in a new strategy.
